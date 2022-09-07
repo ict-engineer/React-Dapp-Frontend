@@ -1,0 +1,79 @@
+{
+    "dark": {
+        "palette": {
+            "type": "dark",
+            "primary": {
+                "main": "#333A36",
+                "contrastText": "#9DD1B2"
+            },
+            "background": {
+                "default": "#333A36",
+                "paper": "#263126"
+            },
+            "secondary": {
+                "main": "#333A36",
+                "light": "#2BA55D",
+                "dark": "#237745",
+                "constrastText": "linear-gradient(180deg, #477057 0%, #313531 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)"
+            },
+            "custom": {
+                "border": "1px solid rgba(255, 255, 255, 0.23)",
+                "backgroud": "1px solid rgba(255, 255, 255, 0.23)",
+                "fast": "linear-gradient(180deg, #477057 0%, #313531 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)",
+                "mobilefooter": "#FCFCFC",
+                "mobilenav": "#263126",
+                "mobile": {
+                    "drawerColor": "#FFFFFF",
+                    "bottomNavigationBackground": "#263126"
+                },
+                "switcher": "#EBF8F0"
+            }
+        },
+        "typography": {
+            "fontFamily": "'Oswald', Aldrich;",
+            "fontSize": 13
+        }
+    },
+    "light": {
+        "palette": {
+            "type": "light",
+            "primary": {
+                "main": "#2BA55D",
+                "contrastText": "#000000"
+            },
+            "background": {
+                "default": "#F8F8F8",
+                "paper": "#FFFFFF"
+            },
+            "secondary": {
+                "main": "#F8F8F8",
+                "light": "#2BA55D",
+                "dark": "#9DD1B2",
+                "contrastText": "linear-gradient(180deg, rgba(157, 209, 178, 0.57) 0%, rgba(157, 209, 178, 0.19) 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)"
+            },
+            "custom": {
+                "border": "1px solid 2BA55D",
+                "backgroud": "1px solid rgba(255, 255, 255, 0.23)",
+                "fast": "linear-gradient(180deg, rgba(157, 209, 178, 0.57) 0%, rgba(157, 209, 178, 0.19) 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)",
+                "mobilefooter": "#263126",
+                "mobilenav": "#FCFCFC",
+                "mobile": {
+                    "drawerColor": "#FFFFFF",
+                    "bottomNavigationBackground": "#263126"
+                },
+                "switcher": "#2BA55D"
+            }
+        },
+        "typography": {
+            "fontFamily": "'Oswald', Aldrich;",
+            "fontSize": 13
+        },
+        "overrides": {
+            "MuiTooltip": {
+                "tooltip": {
+                    "fontSize": "12px"
+                }
+            }
+        }
+    }
+}

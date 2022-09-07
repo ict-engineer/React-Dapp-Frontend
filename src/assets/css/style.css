@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'AlternateGothicStd-No2';
+  src: local('AlternateGothicStd-No2'), url(../Font/Alternate\ Gothic\ Std\ No\ 2.otf) format('otf');
+}
+
+
+.openDrawer{
+  bottom: 0px;
+}
+/* .token-amount-input {
+  background-color: transparent;
+  text-align: right;
+} */
+
+.countdown-timer {
+  position: absolute;
+  line-height: 0px;
+  padding: 6px;
+  border-radius: 8px;
+  background: #9dd1b2;
+  right: 78px;
+}
+
+.countdown-timer__circle circle {
+  stroke-dasharray: 151px;
+  stroke-dashoffset: 151px;
+  stroke-linecap: butt;
+  stroke-width: 48px;
+  stroke: #fff;
+  fill: none;
+}
+
+.countdown-timer__circle svg {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-sizing: content-box;
+  padding: 2px;
+  transform: rotateZ(-90deg);
+}
+
+@keyframes countdown-animation {
+  from {
+    stroke-dashoffset: 0px;
+  }
+  to {
+    stroke-dashoffset: 151px;
+  }
+}
+
+.MuiPopover-root{ 
+  z-index: 99999999999 !important;
+}
